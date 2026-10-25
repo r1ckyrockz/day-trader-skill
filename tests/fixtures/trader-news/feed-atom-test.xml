@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Synthetic Atom</title>
+<entry><title>Analysts upgrade $TSLA after strong quarter</title>
+<link href="https://www.example.com/synthetic/atom-upgrade"/><id>atom-1</id>
+<updated>2026-10-13T21:00:00Z</updated><summary>Synthetic Atom test item.</summary></entry>
+</feed>

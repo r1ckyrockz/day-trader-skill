@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+
+# your own trading data, if you run the tools from this folder
+trader/

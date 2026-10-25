@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "ask": [
+      "mcp__alpaca__place_stock_order",
+      "mcp__alpaca__cancel_order_by_id",
+      "mcp__alpaca__replace_order_by_id",
+      "mcp__alpaca__close_position"
+    ],
+    "deny": [
+      "mcp__alpaca__close_all_positions",
+      "mcp__alpaca__cancel_all_orders",
+      "mcp__alpaca__place_option_order",
+      "mcp__alpaca__place_crypto_order",
+      "mcp__alpaca__exercise_options_position",
+      "mcp__alpaca__do_not_exercise_options_position",
+      "mcp__alpaca__update_account_config"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*alpaca.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/skills/trader-broker/gate.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

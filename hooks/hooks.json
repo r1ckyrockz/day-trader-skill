@@ -1,0 +1,16 @@
+{
+  "description": "trader-broker gate: blocks broker order tools unless trader-risk passed and the user said yes to exactly that order",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*alpaca.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/trader-broker/gate.py\""
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "day-trader-skill",
+  "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Riccardo Carano",
+    "url": "https://github.com/r1ckyrockz"
+  },
+  "homepage": "https://github.com/r1ckyrockz/day-trader-skill",
+  "repository": "https://github.com/r1ckyrockz/day-trader-skill",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "day-trading",
+    "stock-market",
+    "backtesting",
+    "opening-range-breakout",
+    "paper-trading"
+  ],
+  "skills": "./"
+}

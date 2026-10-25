@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>Synthetic Markets Feed</title>
+<item><title>Tesla to recall 12,000 vehicles, regulator says</title>
+<link>https://www.example.com/synthetic/tesla-recall</link><guid>syn-1</guid>
+<description>Synthetic test item that names the company.</description>
+<pubDate>Tue, 13 Oct 2026 19:30:00 +0000</pubDate></item>
+<item><title>Chipmakers rally; $AMD and (NVDA) lead the Nasdaq</title>
+<link>https://www.example.com/synthetic/chips</link><guid>syn-2</guid>
+<description>Synthetic test item that names other tickers.</description>
+<pubDate>Tue, 13 Oct 2026 18:00:00 +0000</pubDate></item>
+<item><title>Oil slips as inventories build</title>
+<link>https://www.example.com/synthetic/oil</link><guid>syn-3</guid>
+<description>Synthetic test item that names none of the watched tickers.</description>
+<pubDate>Tue, 13 Oct 2026 17:00:00 +0000</pubDate></item>
+</channel></rss>
